@@ -77,7 +77,7 @@ In Google Chrome browser::
     $ make test-dev pattern=pattern-highlightjs
 
 
-Generate **registerjs entries** for all the available styles:
+Generate **registerjs entries** for all the available styles::
 
     $ src/mockup-highlightjs/scripts/echo_less_resources.sh
     $ src/mockup-highlightjs/scripts/echo_less_resources-remove.sh
