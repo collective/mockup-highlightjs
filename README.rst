@@ -1,9 +1,9 @@
 Highlightjs for Plone 5.
 ============================
 
-This addon integrates [highlightjs](https://highlightjs.org/) via [pat-highlightjs](https://github.com/pcdummy/pat-highlightjs) into Plone 5.
+This addon integrates https://highlightjs.org/ via https://github.com/pcdummy/pat-highlightjs into Plone 5.
 
-Patternslib searches for pre tags and calls [hljs.highlightBlock(code);](https://github.com/pcdummy/pat-highlightjs/blob/master/src/pat-highlightjs.js#L46) on it.
+Patternslib searches for pre tags and calls https://github.com/pcdummy/pat-highlightjs/blob/master/src/pat-highlightjs.js#L46 on it.
 
 
 Usage
@@ -17,7 +17,7 @@ mockup-highlightjs has 3 profiles:
 
 registerjs Usage:
 
-Add to **YourAddon.site/profiles/default/metadata.xml**
+Add to **YourAddon.site/profiles/default/metadata.xml**::
 
     <?xml version="1.0"?>
     <metadata>
@@ -27,7 +27,7 @@ Add to **YourAddon.site/profiles/default/metadata.xml**
         </dependencies>
     </metadata>
 
-Add to **YourAddon.theme/profiles/default/registry.xml**
+Add to **YourAddon.theme/profiles/default/registry.xml**::
 
     <!-- bundle definition -->
     <records prefix="plone.bundles/youraddon-bundle"
@@ -50,13 +50,13 @@ Bootstrap the JS environment for pattern development
 
 Make sure, you have `GNU make`, `node` and `git` installed.
 
-Then:
+Then::
 
     $ git clone https://github.com/collective/mockup-highlightjs.git
     $ cd mockup-highlightjs
     $ make bootstrap
 
-Then:
+Then::
 
     $ python -m SimpleHTTPServer
     $ chrome http://localhost:8000
