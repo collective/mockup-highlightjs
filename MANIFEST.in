@@ -5,3 +5,5 @@ prune src/mockup-highlightjs/js/build
 exclude .bowerrc
 exclude Makefile
 global-exclude *.pyc
+include *.json
+include buildout.cfg
