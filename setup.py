@@ -14,7 +14,9 @@ setup(
         open("CHANGES.rst").read(),
     ),
     classifiers=[
+	"Environment :: Web Environment",
         "Framework :: Plone",
+	"Framework :: Plone :: 5",
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
