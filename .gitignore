@@ -3,7 +3,7 @@
 .idea
 .installed.cfg
 bin/
-#bower_components/
+bower_components/
 build/
 coverage/
 develop-eggs/

@@ -1,6 +1,6 @@
 {
   "name": "mockup-highlightjs",
-  "version": "1.0a2.dev0",
+  "version": "1.0.0-alpha.2",
   "description": "Highlightjs for Plone",
   "homepage": "https://github.com/collective/mockup-highlightjs",
   "devDependencies": {
