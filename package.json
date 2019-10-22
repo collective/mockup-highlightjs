@@ -4,7 +4,7 @@
   "description": "Highlightjs for Plone",
   "homepage": "https://github.com/collective/mockup-highlightjs",
   "devDependencies": {
-    "bower": "~1.4.1",
+    "bower": "~1.8.8",
     "chai": "^2.3.0",
     "coveralls": "~2.11.2",
     "extend": "~2.0.1",
